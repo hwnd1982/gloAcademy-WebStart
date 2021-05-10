@@ -1,0 +1,317 @@
+.global {
+  min-width: 1650px;
+  max-width: 1920px;
+  width: 100%;
+}
+.first-block {
+  position: relative;
+  width: 100%;
+  padding-top: 36.46%;
+  height: 0;
+}
+.bg-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  margin-top: 0.78%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 16.41%;
+  height: 100%;
+}
+.header-phone {
+  position: relative;
+  margin: 0 1.56% 0 31.32%;
+  color: #292929;
+  font-family: Montserrat, ProximaNova-Regular, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 20px;
+  font-weight: 600;
+  box-align: right;
+  white-space: nowrap;
+}
+.header-button {
+  padding: 1% 2.27% 1% 2.27%;
+  margin-right: 16.67%;
+  background: #feb404;
+  color: #ffffff;
+  border-radius: 10px;
+  font-family: Montserrat, ProximaNova-Semibold, AdobeInvisFont, MyriadPro-Regular;
+  text-transform: uppercase;
+  font-size: 10px;
+  white-space: nowrap;
+}
+
+.first-block-body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 66, 92%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 16.41%;
+  padding-right: 16.67%;
+}
+
+.first-block-info {
+  width: 38.94%;
+  margin-top: 188px;
+}
+.info-inner {
+  position: relative;
+  height: 0;
+  /* margin-top: 189px;
+  padding-top: 404px; */
+}
+.info-content {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: left;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.info-titel {
+  box-sizing: border-box;
+  margin-bottom: 49px;
+  color: #292929;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 1.85vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.info-sign {
+  padding-right: 11.5vw;
+  color: #292929;
+  font-family: Montserrat, ProximaNova-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 1.08vw;
+  /* box-align: left; */
+}
+.info-board {
+  box-sizing: border-box;
+  background-color: #70c849;
+  width: 45.2%;
+  margin-top: 50px;
+  margin-bottom: 32px;
+  padding: 30px 20px 11px 20px;
+  justify-items: center;
+  /* margin-right: 50%; */
+}
+.info-board-text {
+  display: block;
+  color: #ffffff;
+  font-family: Montserrat, ProximaNova-Semibold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 0.9vw;
+  list-style: none;
+  margin-bottom: 13px;
+  text-align: center;
+}
+.info-terms {
+  color: #292929;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 1.08vw;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.first-block-form {
+  width: 27.83%;
+}
+
+.advantage {
+  width: 100%;
+}
+.advantage-inner {
+  position: relative;
+  height: 0;
+  padding-top: 32.86%;
+}
+.advantage-content {
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 5.16% 17.19%;
+}
+.advantage-title {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 36px;
+  font-weight: 600;
+}
+.advantage-list {
+  margin-top: 124px;
+  padding-left: 0;
+  list-style-type: none;
+  display: inline-flex;
+}
+.advantage-item {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.advantage-item-title {
+  margin-top: 64px;
+  margin-bottom: 35px;
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 20px;
+  box-align: center;
+}
+.advantage-item-text {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Light, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 14px;
+  text-align: center;
+}
+.advantage-link {
+  color: #4aa223;
+}
+
+.plyer {
+  position: absolute;
+  /* height: 16.25%; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-video {
+  position: relative;
+  /* height: 312px; */
+  width: 26.67%;
+}
+.plyer-button {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 84px;
+  height: 84px;
+  z-index: 61;
+  border-width: 3px;
+  border-color: rgb(73, 191, 21);
+  border-style: solid;
+  border-radius: 50%;
+}
+.inner-circle {
+  margin: 5px;
+  padding: 24px 20px 24px 30px;
+  width: 24px;
+  height: 26px;
+  z-index: 62;
+  border-radius: 50%;
+  background-color: rgb(73, 191, 21);
+}
+
+.form-title {
+  color: #292929;
+  font-family: Montserrat, ProximaNova-Regular, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 18px;
+  box-align: center;
+}
+.form-edit-sign {
+  color: #565656;
+  font-family: Montserrat, ProximaNova-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 13px;
+  box-align: center;
+}
+.form-button {
+  color: #ffffff;
+  font-family: Montserrat, ProximaNova-Semibold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 16px;
+  box-align: center;
+}
+.form-sign {
+  color: #565656;
+  font-family: Montserrat, ProximaNova-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 12px;
+  box-align: center;
+}
+
+.price-title {
+  color: #ffffff;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 36px;
+  box-align: center;
+}
+.price-buttons {
+  color: #ffffff;
+  font-family: Montserrat, ProximaNova-Semibold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 18px;
+  box-align: center;
+}
+.price-sign {
+  color: #ffffff;
+  font-family: Montserrat, ProximaNova-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 18px;
+  box-align: center;
+}
+.price-card-title {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Light, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 19px;
+  box-align: center;
+}
+.price-card-price {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 19px;
+  box-align: center;
+}
+.price-card-cast {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Regular, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 18px;
+  box-align: center;
+}
+.review-title {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 36px;
+  box-align: center;
+}
+.video-text {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Regular, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 16px;
+  box-align: left;
+}
+.client-name {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Regular, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 14px;
+  box-align: left;
+}
+.comment-text {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-RegularIt, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 15px;
+  box-align: left;
+}
+.footer-form-title {
+  color: #1a1820;
+  font-family: Montserrat, ProximaNova-Bold, AdobeInvisFont, MyriadPro-Regular;
+  font-size: 22px;
+  box-align: center;
+}

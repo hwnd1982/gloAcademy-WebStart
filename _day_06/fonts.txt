@@ -1,0 +1,7 @@
+ProximaNova-Regular,
+ProximaNova-RegularIt,
+ProximaNova-Semibold,
+ProximaNova-Bold,
+ProximaNova-Light,
+AdobeInvisFont,
+MyriadPro-Regular;

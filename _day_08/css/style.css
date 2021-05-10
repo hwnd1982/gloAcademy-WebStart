@@ -1,0 +1,107 @@
+.screen {
+  display: flex;
+  justify-content: center;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  /* max-width: 1499px; */
+  max-width: 1170px;
+  min-height: 929px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 175px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header-text {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/* .wrapper-cart {
+  display: flex;
+  width: 290px;
+  height: 369px;
+  align-items: flex-start;
+  justify-content: space-around;
+} */
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  height: 349px;
+  border: 3px solid #f6f7f8;
+  background: #fff;
+}
+.content {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  width: 236px;
+  height: 153px;
+}
+.img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 230px;
+  height: 102px;
+  border-top: 1px solid #f6f7f8;
+}
+.products-name {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  color: #262626;
+}
+.new-price {
+  display: inline-block;
+  width: 45px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ff4858;
+}
+.old-price {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: line-through;
+  color: #c1c8ce;
+}
+.hot {
+  position: absolute;
+  top: -15px;
+  left: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 40px;
+  height: 20px;
+  background-color: red;
+  z-index: 99;
+}
+.hot-text {
+  color: #fff;
+  text-transform: uppercase;
+  font: 11px Montserrat;
+}

@@ -1,0 +1,66 @@
+.document {
+  width: 100%;
+  padding: 20px;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+.pages {
+  width: 601px;
+  height: 980px;
+  margin: auto;
+  margin-bottom: 7px;
+  padding: 96px;
+  border: 2px solid #e7e8e8;
+  background-color: #f1f1f1;
+}
+.text {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  font-size: 14px;
+  font-family: Arial, serif;
+}
+.header-underlined {
+  padding-top: 6px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  font-family: Georgia, sans-serif;
+  font-size: 22.66666px;
+  font-weight: 400;
+  border-bottom: 1px solid #a2a9b1;
+  color: blue;
+}
+.list-title,
+.list-setting {
+  margin-bottom: 0px;
+  font-family: Arial, serif;
+  font-size: 13.3333px;
+}
+.list-title {
+  font-weight: 700;
+}
+.list-setting {
+  margin-top: 10px;
+  padding-left: 25px;
+  font-weight: 400;
+}
+.tag {
+  font-family: Courier New, sans-serif;
+  background-color: #f8f9fa;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-italic {
+  font-style: italic;
+}
+.text-underlined {
+  text-decoration: underline;
+}
+.up-index {
+  font-size: 11px;
+  vertical-align: super;
+}
+.wiki-link {
+  text-decoration: none;
+}
