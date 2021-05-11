@@ -567,23 +567,19 @@
   padding: 108px 11.458vw 46px;
 }
 .footer-top {
+  position: relative;
   display: flex;
   justify-content: space-between;
-}
-.right-footer-top,
-.left-footer-top {
-  display: flex;
-  flex-basis: 49%;
-  justify-content: space-between;
-}
-.left-footer-top {
   flex-wrap: wrap;
 }
-.legal-information {
-  flex-basis: 32%;
+.footer-logo {
+  padding-top: 15px;
+  flex-basis: 17.708vw;
 }
 .social-network {
-  margin-top: 23px;
+  position: absolute;
+  left: 51.2%;
+  bottom: 0;
 }
 .information {
   font-weight: 700;
@@ -592,11 +588,7 @@
   display: flex;
   flex-direction: column;
   color: #ffffff;
-  width: 21vw;
-}
-.footer-logo {
-  padding-top: 15px;
-  width: 21vw;
+  flex-basis: 17.708vw;
 }
 .footer-logo-text {
   font-family: "Luckiest Guy", cursive;
@@ -635,6 +627,10 @@
   .activities-block {
     max-width: 21vw;
   }
+  .information,
+  .footer-logo {
+    flex-basis: 21vw;
+  }
 }
 @media (max-width: 1240px) {
   .wrapper-newsletter,
@@ -645,9 +641,6 @@
 @media (max-width: 1100px) {
   .wrapper-newsletter {
     padding: 0 11.458vw;
-  }
-  .additional-information {
-    flex-basis: 45%;
   }
 }
 @media (max-width: 900px) {
@@ -712,27 +705,19 @@
     min-width: 43.4vw;
   }
   /*  */
-  .right-footer-top {
-    margin-right: 0;
-    flex-direction: column;
-    flex-basis: 15%;
-  }
-  .left-footer-top {
+  .footer-top {
     flex-wrap: wrap-reverse;
     align-items: flex-end;
-    flex-basis: 66%;
-    justify-content: space-between;
   }
   .social-network {
     margin-top: 0;
     display: flex;
     justify-content: center;
   }
-  .footer-logo,
-  .social-network {
-    height: 130px;
-  }
   .footer-logo {
+    position: static;
+    flex-basis: 28%;
+    order: 1;
     padding-top: 0;
     margin-bottom: 48px;
   }
@@ -740,8 +725,11 @@
     font-size: 40.0964px;
     line-height: 40px;
   }
-  .additional-information {
-    flex-basis: 55.355%;
+  .social-network {
+    position: static;
+    align-self: center;
+    flex-basis: 62.7%;
+    order: 1;
   }
 }
 @media (max-width: 652px) {
@@ -814,5 +802,19 @@
     margin-bottom: 20px;
     max-width: 100%;
     min-width: 100%;
+  }
+  /*  */
+  .footer-top {
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+  /* .footer-logo {
+    order: -1;
+  }
+  .legal-information {
+    order: -1;
+  } */
+  .social-network {
+    order: 0;
   }
 }
