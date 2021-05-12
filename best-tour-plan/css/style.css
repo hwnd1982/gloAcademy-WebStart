@@ -576,14 +576,6 @@
   padding-top: 15px;
   flex-basis: 17.708vw;
 }
-.social-network {
-  position: absolute;
-  left: 51.2%;
-  bottom: 0;
-}
-.social-network-icons {
-  fill: #bdbdbd;
-}
 .information {
   font-weight: 700;
   font-size: 14px;
@@ -592,6 +584,18 @@
   flex-direction: column;
   color: #ffffff;
   flex-basis: 17.708vw;
+}
+.social-network {
+  position: absolute;
+  display: flex;
+  left: 51.2%;
+  bottom: 0;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+.network-icons {
+  fill: #bdbdbd;
 }
 .footer-logo-text {
   font-family: "Luckiest Guy", cursive;
