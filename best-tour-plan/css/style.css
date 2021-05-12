@@ -581,6 +581,9 @@
   left: 51.2%;
   bottom: 0;
 }
+.social-network-icons {
+  fill: #bdbdbd;
+}
 .information {
   font-weight: 700;
   font-size: 14px;
